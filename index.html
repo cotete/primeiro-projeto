@@ -5,56 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Exemplo básico de HTML</title>
-	<style>
-		/*Este é o comentario css*/
-		/* vammos selecionar uma tag para aplicar um estilo, esta acao se chama selecao de seletor,
-		 onde o seletor e a tag ou o elemento b no caso o elemento pode ser um id ou class.*/
-
-		 /*vamos selecionar a alista ul e aplicar um estilo*/
-		 
-		 /*aqui selecionei a lista ul, desta forma seleciona todas as listas ul da pagina, entao
-		 se eu aplicar um estuilo todas serao afetadas.*/
-
-		 *{
-			margin: 0px;
-			padding: 0px;
-			font-size: 16px;
-		 }
-
-		 ul{
-			list-style: none;
-			width: 144%;
-			margin: 0 auto;
-		 }
-		 ul li{
-			display: inline;
-			padding: 0 10px;
-			margin: 0 10%;
-		 }
-
-		 ul li a{
-			text-decoration: none;
-			display: inline;
-			
-		 }
-		 .container{
-			width: 75%;
-			margin: 0 auto;
-			background-color: bisque;
-			border: 0px;
-			box-sizing: border-box;
-		 }
-		 .cabecalho{
-			border: 0px;
-			background-color: darkslategray;
-		 }
-		 .cabecalho h1{
-			font-size: 32px;
-			font-family: sans-serif;
-			text-align: center;
-			padding: 10px;
-		 }
-	</style>
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -70,6 +21,45 @@
 				</ul>
 			</nav>
 		</header>
+
+		<section>
+			<div>
+				<h2>Help</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit, necessitatibus nesciunt nulla ipsam sed libero ipsum vero reiciendis. Laboriosam reiciendis, quasi distinctio quos sint omnis praesentium quam maiores, ex ab tempora, consectetur sunt recusandae ea. Consequatur quam pariatur quo enim distinctio? Perferendis quo ad at eos corporis voluptates repellat, aliquam ullam nulla tempore vitae voluptatum. Corporis repellat necessitatibus quibusdam officia cumque, unde tenetur quis ratione. Blanditiis sapiente voluptatem, sed, ex placeat at natus et deleniti optio voluptate molestias porro illum expedita fugiat debitis animi ipsum aliquid in vero aliquam amet consectetur sint autem. Laboriosam ab minima quos magnam culpa!
+
+				</p>
+				<a href="./paginas/help.html">Mais...</a>
+			</div>
+
+			<div>
+				<h2>About</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque asperiores nesciunt quaerat ut optio explicabo neque dicta fugit blanditiis laudantium praesentium maxime corporis, consequatur enim aperiam. Ut, adipisci soluta. Iure.
+				</p>
+				<a href="./paginas/about.html">Mais....</a>
+			</div>
+
+			<div>
+				<h2>Contact</h2>
+				<form>
+					<fieldset>
+						<legend>Customer Data</legend>
+						<div>
+							<label for="idNm">Nome: </label>
+							<input type="text" name="txtNm" id="idNm" placeholder="Digite o seu nome: ">
+						</div>
+						<div>
+							<label for="idEmail">Email: </label>
+							<input type="email" name="txtNm" id="idEmail" placeholder="Digite o seu email: ">
+						</div>
+						<div>
+							<button type="button">submit</button>
+						</div>
+						
+					</fieldset>
+				</form>
+			</div>
+		</section>
 
 		<!-- nav#menu>ul>li*3>a[href="#"]{item - $} -->
 
