@@ -8,3 +8,7 @@ h1{
 .cabecalho{
    background-color: lightblue;
 }
+
+h1, h2{
+   font-family: sans-serif;
+}
