@@ -12,13 +12,13 @@ h1{
 h1, h2{
    font-family: sans-serif;
 }
-nav a{
+nav{
    font-weight: bold;
 }
 .container{
    margin: 20px;
 }
-.conteudo{
+#conteudo{
    line-height: 1.5;
 }
 form{
