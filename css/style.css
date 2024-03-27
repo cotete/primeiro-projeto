@@ -32,6 +32,6 @@ button{
    background-color: aqua;
    color: white;
 }
-footer{
-   border: top 2px;
+#rodape{
+   border-top: 2px solid red;
 }
