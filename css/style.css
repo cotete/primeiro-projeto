@@ -12,7 +12,7 @@ h1{
 h1 h2{
    font-family: sans-serif;
 }
-header nav a{
+nav {
    font-weight: bold;
 }
 .container{
